@@ -1,0 +1,26 @@
+{
+  "name": "ditliti/php-sdk",
+  "description": "Official framework-agnostic PHP SDK for Ditliti (works with Symfony, WordPress, or vanilla PHP) - error tracking, tracing, replays, and profiling ingestion.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/kangartha/inspectora/tree/main/sdk/php",
+  "authors": [
+    {
+      "name": "candrabasic"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/kangartha/inspectora/issues",
+    "source": "https://github.com/kangartha/inspectora"
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ditliti\\": "src/"
+    }
+  }
+}
